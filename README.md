@@ -60,3 +60,20 @@ function finalGrade (exam, projects) {
 ````
 
 *Master
+
+https://www.codewars.com/kata/convert-to-binary/train/javascript
+````javascript
+function toBinary(n){
+  return Number(n.toString(2));
+}
+````
+https://www.codewars.com/kata/reversed-sequence/javascript
+````
+const reverseSeq = n => {
+  const arr = [];
+  for (let i = n; i > 0; i--){
+   arr.push(i);
+  }
+  return arr;
+}
+````
