@@ -77,3 +77,18 @@ const reverseSeq = n => {
   return arr;
 }
 ````
+
+
+my-new-branch
+https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
+````javascript
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let min = args[0];
+    for (let i = 1; i < args.length; i++){
+      if (args[i] < min) min = args[i];
+    }
+    return min;
+  }
+}
+
