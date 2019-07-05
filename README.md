@@ -77,3 +77,12 @@ const reverseSeq = n => {
   return arr;
 }
 ````
+
+https://www.codewars.com/kata/get-the-mean-of-an-array/train/javascript
+````javascript
+function getAverage(marks){
+  let acc = 0;
+  marks.forEach(el=> acc += el);
+  return Math.floor(acc / marks.length);
+}
+````
